@@ -54,13 +54,14 @@ def red_alert():
     idle_state()
 
 # ================= MAIN LOOP =================
-try:
-    print("Status Hub Hardware Initialized")
-    idle_state()
+if __name__ == "__main__":
+    try:
+        print("Status Hub Hardware Initialized")
+        idle_state()
 
-    while True:
-        time.sleep(0.1)
+        while True:
+            time.sleep(0.1)
 
-except KeyboardInterrupt:
-    print("Shutting down...")
-    GPIO.cleanup()
+    except KeyboardInterrupt:
+        print("Shutting down...")
+        GPIO.cleanup()
