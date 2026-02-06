@@ -22,6 +22,10 @@ The system is built to be:
 4. When conditions are met, alerts are triggered.
 5. The loop continues until the service is stopped.
 
+## Live Demo
+
+![Watch Demo](media/smdemo.gif)
+
 ## Running as a Service
 The system is designed to run via systemd:
 - Starts automatically on boot
@@ -41,3 +45,15 @@ Typical configuration includes:
 - Linux system with systemd
 - Python 3.x
 - Internet connection for market data
+
+## Future Expansion
+- Integrate more stocks to monitor.
+- 24/7 market monitoring.
+- Alerts to be more descriptive of what is going on.
+
+## Notes
+- yfinance must be installed in the venv.
+  source ~/stockenv/bin/activate
+  pip install yfinance
+- Internet connection required.
+- Market must be open for live prices (otherwise last close is used).
