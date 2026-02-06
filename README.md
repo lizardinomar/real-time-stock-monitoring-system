@@ -26,6 +26,10 @@ The system is built to be:
 
 ![Watch Demo](media/smdemo1.gif)
 
+## Hardware
+
+![Hardware Section](hardware/README.md)
+
 ## Running as a Service
 The system is designed to run via systemd:
 - Starts automatically on boot
