@@ -28,7 +28,7 @@ The system is built to be:
 
 ## Hardware
 
-![Hardware Section](hardware/README.md)
+[Hardware Section](hardware/README.md)
 
 ## Running as a Service
 The system is designed to run via systemd:
