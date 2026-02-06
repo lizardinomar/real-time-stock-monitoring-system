@@ -24,7 +24,7 @@ The system is built to be:
 
 ## Live Demo
 
-![Watch Demo](media/smdemo.gif)
+![Watch Demo](media/smdemo1.gif)
 
 ## Running as a Service
 The system is designed to run via systemd:
